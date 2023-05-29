@@ -1,0 +1,35 @@
+[
+  {
+    "id": 3,
+    "title": "Producto 2",
+    "description": "Descripción del Producto 2",
+    "code": "DEF4567",
+    "price": 20,
+    "status": true,
+    "stock": 8,
+    "category": "xd",
+    "thumbnails": []
+  },
+  {
+    "id": 4,
+    "title": "Nuevo títul1",
+    "description": "Descripción del Producto 2",
+    "code": "DEF45678",
+    "price": 20,
+    "status": true,
+    "stock": 8,
+    "category": "lalala",
+    "thumbnails": []
+  },
+  {
+    "id": 5,
+    "title": "Nuevo producto",
+    "description": "Descripción del nuevo producto",
+    "code": "P001",
+    "price": 9.99,
+    "status": true,
+    "stock": 10,
+    "category": "Electrónica",
+    "thumbnails": []
+  }
+]
