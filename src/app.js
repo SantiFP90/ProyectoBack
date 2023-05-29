@@ -1,44 +1,17 @@
-const path = require('path');
-const express = require('express');
+const path = require("path");
+const express = require("express");
 const app = express();
-const routerProductos = require('../routes/routerProducts');
-const cartRouter = require('../routes/routerCart');
-
-
-const ProductManager = require('./productManager');
-const productManager = new ProductManager(path.join(__dirname, './productos.json'));
-
-const CartManager = require('./cartManager');
-const cartManager = new CartManager(path.join(__dirname, './carts.json'));
+const routerProducts = require("../routes/routerProducts");
+const routerCart = require("../routes/routerCart");
 
 app.use(express.json());
 
 const PORT = 8080;
 
-app.use('/api/products', routerProductos);
+app.use("/api/products", routerProducts);
 
-app.use('/api/carts', cartRouter);
-
+app.use("/api/carts", routerCart);
 
 app.listen(PORT, () => {
   console.log(`Servidor Express escuchando en el puerto ${PORT}`);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
