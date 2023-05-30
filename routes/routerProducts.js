@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const ProductManager = require("../src/productManager");
+const ProductManager = require("../utilities/productManager");
 const path = require("path");
 const productManager = new ProductManager(
   path.join(__dirname, "../data/productos.json")

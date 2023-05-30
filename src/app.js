@@ -6,7 +6,7 @@ const routerCart = require("../routes/routerCart");
 
 app.use(express.json());
 
-const PORT = 8080;
+const PORT = 3000;
 
 app.use("/api/products", routerProducts);
 
