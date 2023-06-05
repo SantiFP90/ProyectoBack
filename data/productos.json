@@ -1,29 +1,7 @@
 [
   {
-    "id": 3,
-    "title": "Producto 2",
-    "description": "Descripción del Producto 2",
-    "code": "DEF4567",
-    "price": 20,
-    "status": true,
-    "stock": 8,
-    "category": "gatos cristianos",
-    "thumbnails": []
-  },
-  {
-    "id": 4,
-    "title": "Nuevo títul1",
-    "description": "Descripción del Producto 2",
-    "code": "DEF45678",
-    "price": 20,
-    "status": true,
-    "stock": 8,
-    "category": "gatos endemoniados",
-    "thumbnails": []
-  },
-  {
     "id": 5,
-    "title": "Nuevo producto",
+    "title": "gatos jugadores de futbol",
     "description": "Descripción del nuevo producto",
     "code": "P001",
     "price": 9.99,
@@ -31,5 +9,45 @@
     "stock": 10,
     "category": "gatos jugadores de futbol",
     "thumbnails": []
+  },
+  {
+    "title": "gato vendedor de saumerios",
+    "price": "452",
+    "id": 6
+  },
+  {
+    "title": "gato conserje",
+    "price": "988",
+    "id": 7
+  },
+  {
+    "title": "gato sicario",
+    "price": "82381",
+    "id": 8
+  },
+  {
+    "title": "gato pescador",
+    "price": "333",
+    "id": 9
+  },
+  {
+    "title": "gato nadador",
+    "price": "232",
+    "id": 10
+  },
+  {
+    "title": "gato budista",
+    "price": "231",
+    "id": 11
+  },
+  {
+    "title": "gato ambientalista",
+    "price": "123",
+    "id": 12
+  },
+  {
+    "title": "gato bomba",
+    "price": "666",
+    "id": 13
   }
 ]
